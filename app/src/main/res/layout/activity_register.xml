@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterActivity">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100sp">
+            <TextView
+                    android:textColor="#AF7817"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="REGISTER"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="match_parent">
+
+        <EditText
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:id="@+id/et_first_name"
+                android:ems="10"
+                android:hint="First_Name"
+                android:inputType="textPersonName" />
+        <EditText
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:id="@+id/et_last_name"
+                android:ems="10"
+                android:hint="Last_Name"
+                android:inputType="textPersonName" />
+        <EditText
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:id="@+id/et_email"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+        <EditText
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:id="@+id/et_password"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_register"
+                android:background="#AF7817"
+                android:text="Create_Account"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
